@@ -51,7 +51,7 @@ namespace ConsoleApplication
             double fica= 5.77218270310745 * weeklyPay /100;
             Console.WriteLine("FICA: " + fica.ToString("C", CultureInfo.CurrentCulture));
             double ficaMedicare=1.350617746162486 * weeklyPay / 100;
-            Console.WriteLine("FICA Medica: " + ficaMedicare.ToString("C", CultureInfo.CurrentCulture));
+            Console.WriteLine("FICA Medicare: " + ficaMedicare.ToString("C", CultureInfo.CurrentCulture));
             double ficaTax= 8.593223511793336 * weeklyPay / 100;
             Console.WriteLine("FICA Tax: " + ficaTax.ToString("C", CultureInfo.CurrentCulture));
             double stateTax=3.269374766005241 * weeklyPay / 100;
